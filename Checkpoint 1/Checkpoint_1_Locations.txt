@@ -1,0 +1,19 @@
+Sphere 1:
+	Size - Radius of 1.0
+	Location - x(0.0), y(5.0), z(30.0)
+
+Sphere 2:
+	Size - Radius of 0.7
+	Location - Translated away from sphere 1 by x(1.0), y(-0.7), z(-2.0)
+	
+Floor:
+	Size - x(5), y(0), z(30)
+	Location: 
+		p1[ x(-2.5), y(-1), z(-15) ] 
+		p2[ x(-2.5), y(-1), z(15) ]
+		p3[ x(2.5), y(-1), z(15) ]
+		p4[ x(2.5), y(-1), z(-15) ]
+	
+Camera:
+	Position - fovY(10), zNear(1), zFar(40)
+	Lookat - eye(0,5,30), center(0,0,0), up(0,1,0)
